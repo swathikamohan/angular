@@ -1,0 +1,12 @@
+.p {
+    color: rgb(64, 226, 43);
+}
+
+.mygame {
+    background-color: aqua;
+    align-items: center;
+    margin-left: 2px;
+    position: relative;
+    height: 40px;
+    width: 50px;
+}

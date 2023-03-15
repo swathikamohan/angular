@@ -1,0 +1,24 @@
+<div class="mygame">
+    <ngx-snake #game (foodEaten)="onGrow()" (gameOver)="onGameOver()"></ngx-snake>
+    <div class="space">
+    </div>
+    <button (click)="game.actionStart()" class="btn btn-secondary p-1">Start</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionStop()" class="btn btn-secondary p-1">Stop</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionReset()" class="btn btn-secondary p-1">Reset</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionUp()" class="btn btn-secondary p-1">Up</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionLeft()" class="btn btn-secondary p-1">Left</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionRight()" class="btn btn-secondary p-1">Right</button>
+    <div class="space">
+    </div>
+    <button (click)="game.actionDown()" class="btn btn-secondary p-1">Down</button>
+</div>

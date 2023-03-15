@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: angular-14-registration-login-example-master
+Bundle-SymbolicName: angular-14-registration-login-example-master
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: angular.14.registration.login.example.master

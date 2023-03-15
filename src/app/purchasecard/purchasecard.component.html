@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>purchaseId</th>
+                <th>customerName</th>
+                <th>price</th>
+                <th>paymentMode</th>
+            </tr>
+            </thead>
+            <tbody>
+ <tr *ngFor="let s of purchasecard">
+    <td>{{s.purchaseId}}</td>
+    <td>{{s.customerName}}</td>
+    <td>{{s.price}}</td>
+    <td>{{s.paymentMode}}</td>
+    </tbody>
+    </table>
+</div>

@@ -1,0 +1,10 @@
+.mygame {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+}

@@ -1,0 +1,20 @@
+ <div class="container">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+             <tr>
+            <th>gameId</th>
+            <th>gameName</th>
+            <th>gameType</th>
+            <th>cost</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr *ngFor="let s of gamedata">
+            <td>{{s.gameId}}</td>
+            <td>{{s.gameName}}</td>
+            <td>{{s.gameType}}</td>
+            <td>{{s.cost}}</td>
+            </tbody>
+    </table>
+</div> 

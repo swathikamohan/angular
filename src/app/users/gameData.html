@@ -1,0 +1,15 @@
+<div class="container">
+    <table class="table table-stripped">
+        <tr>
+            <th>gameId</th><br>
+            <th>gameName</th><br>
+            <th>gameType</th><br>
+            <th>cost</th>
+        </tr>
+        <tr *ngFor="let s of game">
+            <td>{{s.gameId}}</td><br>
+            <td>{{s.gameName}}</td><br>
+            <td>{{s.gameType}}</td><br>
+            <td>{{s.cost}}</td>
+    </table>
+</div>

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="table-responsive">
+    <table class="table table-bordered table-hover">
+     <thead class="thead-dark">
+        <tr>
+            <th>customerId</th>
+            <th>customerName</th>
+            <th>customerAge</th>
+            <th>customerNumber</th>
+            <th>customerEmail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let s of customer">
+            <td>{{s.customerId}}</td>
+            <td>{{s.customerName}}</td>
+            <td>{{s.customerAge}}</td>
+            <td>{{s.customerNumber}}</td>
+            <td>{{s.customerEmail}}</td>
+            </tbody>
+    </table>
+</div>
+
